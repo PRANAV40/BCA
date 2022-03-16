@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="img/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="manifest" href="img/favicon.png" />
+  <title>Pranav | Portfolio</title>
+  <meta name="description" content="Personal website of Pranav Mishra">
+
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="Pranav | Portfolio">
+  <meta itemprop="description" content="Personal website of Pranav Mishra">
+  <meta itemprop="image" content="">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pranav | Portfolio">
+  <meta property="og:description" content="Personal website of Pranav Mishra">
+  <meta property="og:image" content="">
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@coreui/icons@2.0.0-beta.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <nav class="container navbar sticky sticky-top navbar-expand-xl">
+    <a class="navbar-brand" href="#" style="margin-left: 2rem;">Pranav</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler span"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item-active"><a class="nav-link" href="#"> Home</a></li>
+        <li class="nav-item-active"><a class="nav-link" href="#about"></i> About Me</a></li>
+        <li class="nav-item-active"><a class="nav-link" href="#techWrap">
+            Skills</a></li>
+        <li class="nav-item-active"><a class="nav-link" href="#projectSection">
+            Projects</a></li>
+        <li class="nav-item-active"><a class="nav-link" href="PRANAV's Resume.pdf" target="_blank"> Resume</a> </li>
+        <li class="nav-item-active"><a class="nav-link fork-btn" href="https://github.com/PRANAV40" target="_blank"><i
+              class="fas fa-code-branch"></i><i class="far fa-star"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section>
+    <div class="container-fluid home-section" id="home">
+      <Particle />
+      <div class="container home-content">
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="home-header col-sm-7">
+            <h1 style="padding-bottom: 10; color: rgb(251, 250, 252);" class="heading">
+              Hi There! <span class="wave">👋🏻</span>
+            </h1>
+            <h3 class="heading" style="color: wheat;">
+              <script language="javascript" src="js/greet.js">
+              </script>
+            </h3>
+            <h1 class="heading-name" style="color: rgb(240, 241, 241);">
+              I'm
+              <strong class="main-name"> Pranav Mishra</strong>
+            </h1>
+          </div>
+          <div class="col-sm-4" style="padding-bottom: 20">
+            <img src="img/home-main.svg" alt="home pic" class="img-fluid" />
+          </div>
+        </div>
+        <br>
+      </div>
+    </div>
+  </section>
+
+  <section style="background-color: #121212b2; ">
+    <div class="container-fluid home-about-section" id="about">
+      <h1 style="font-size: 2.56em; color: rgb(252, 8, 8); text-align: center;">
+        <span class="purple"> INTRODUCE </span> MYSELF
+      </h1>
+      <div id="aboutWrap">
+        <div class="myAvtar">
+          <img src="img/Profile.jpg" class="img-fluid" alt="avatar"
+            style="border-radius: 60%; filter: brightness(80%);" />
+        </div>
+        <div class="home-about-description">
+          <div style="font-size: 1.3rem; line-height: 2rem;">
+            <p class="home-about-body">
+              I'm a <i>Become a Web Developer</b></i>. <br> <br>
+              <br />
+              <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="techWrap">
+    <div id="tech">
+      <h1 class="project-heading" style="font-size: 3em; text-align: center; margin-bottom: 2rem;">
+        <strong class="purple">Skills </strong>
+      </h1>
+      <div class="row" style="justify-content: center; padding-bottom:50px">
+        <a class="col-xs-2 col-sm-1 tech-icons" href="https://www.cprogramming.com/">
+          <i class="devicon-c-plain-wordmark tech-icon-images"></i>
+        </a>
+        <a class="col-xs-2 col-sm-1 tech-icons" href="http://www.cplusplus.org/">
+          <i class="devicon-cplusplus-plain tech-icon-images"></i>
+        </a>
+        <a class="col-xs-2 col-sm-1 tech-icons" href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">
+          <i class="devicon-html5-plain-wordmark tech-icon-images"></i>
+        </a>
+        <a class="col-xs-2 col-sm-1 tech-icons" href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+          <i class="devicon-css3-plain-wordmark tech-icon-images"></i>
+        </a>
+        <a class="col-xs-2 col-sm-1 tech-icons" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+          <i class="devicon-javascript-plain tech-icon-images"></i>
+        </a>
+        <a class="col-xs-2 col-sm-1 tech-icons" href="https://getbootstrap.com/">
+          <i class="devicon-bootstrap-plain-wordmark tech-icon-images"></i>
+        </a>
+        <a class="col-xs-2 col-sm-1 tech-icons" href="https://www.python.org/">
+          <i class="devicon-python-plain tech-icon-images"></i>
+        </a>
+        <a class="col-xs-2 col-sm-1 tech-icons" href="https://www.djangoproject.com/">
+          <i class="devicon-django-plain tech-icon-images"></i>
+        </a>
+        <a class="col-xs-2 col-sm-1 tech-icons" href="https://www.mysql.com/">
+          <i class="devicon-mysql-plain tech-icon-images"></i>
+        </a>
+        <a class="col-xs-2 col-sm-1 tech-icons" href="https://www.adobe.com/in/products/photoshop.html">
+          <i class="devicon-photoshop-plain tech-icon-images"></i>
+        </a>
+        
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="projectSection">
+    <div class="container-fluid" id="projectItemWrapper">
+      <h1 class="project-heading" style="text-align: center; font-size: 3em;">
+        My <strong class="purple">Projects </strong>
+      </h1>
+      <div class="col-sm-12 projectItem">
+        <div style="overflow: hidden;">
+          <a href="https://crypticani.pythonanywhere.com/" target="_blank"><img src="img/utsav.png"
+              style='height: 100%; width: 100%; object-fit: contain' alt="project image"></a>
+        </div>
+        <div style="text-align: center;">
+          <a href="https://crypticani.pythonanywhere.com/" target="_blank"
+            style="display: inline-block; text-decoration: none;">
+            <h2 class="purple" style="text-align: center;">Utsav</h2>
+          </a>
+        </div>
+        <div style="line-height: 2rem; font-size: 1.1rem;">
+          <ul>
+            <li>Utsav: The annual celebration of sports and cultural events</li>
+            <li>Technologies used
+              <ol>
+                <li>Html, Css, JavaScript, Bootstrap</li>
+                <li>Python Django</li>
+                <li>MySql</li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="row" style="width: 100%; background-color: #0c0f25b8; margin: 0">
+    <div class="col-sm-12 home-about-social">
+      <h1 style="color: white;">CONTACT ME</h1>
+      <p>
+        Would you like to <span class="purple">connect </span>with me?
+      </p>
+      <ul class="home-about-social-links">
+        <li class="social-icons">
+          <a href="mailto:pranav2000mishra@gmail.com" target="_blank" rel="noreferrer"
+            class="icon-colour  home-social-icons">
+            <i class="far fa-envelope"></i>
+          </a>
+        </li>
+        <li class="social-icons">
+          <a href="https://www.linkedin.com/in/pranav-mishra-116510173/" target="_blank" rel="noreferrer"
+            class="icon-colour  home-social-icons">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li class="social-icons">
+          <a href="https://twitter.com/PranavM40" target="_blank" rel="noreferrer"
+            class="icon-colour  home-social-icons">
+              <i style="font-size:24px" class="fa">&#xf099;</i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+</body>
+</html>

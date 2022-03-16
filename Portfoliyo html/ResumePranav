@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume</title>
+  <a href="ResumePranav.pdf" download>
+    <img src="ResumePranav.pdf" alt="ResumePranav" >
+  </a>
+  </head>
+</html>
